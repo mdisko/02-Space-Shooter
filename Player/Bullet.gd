@@ -25,3 +25,5 @@ func _on_Bullet_body_entered(body):
 			explosion.global_position = global_position
 			Effects.add_child(explosion)
 	queue_free()
+
+
