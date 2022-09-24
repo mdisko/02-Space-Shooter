@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+onready var Slime = load("res://Enemy/Slime.tscn")
+
 var health = 5
 
 var velocity = Vector2(0, -100.0)

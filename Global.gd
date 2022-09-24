@@ -21,7 +21,7 @@ var levels = [
 		"asteroids":[Vector2(100,100),Vector2(980,500),Vector2(800,200)],
 		"enemies":[Vector2(150,500)],
 		"timer":100,
-		"asteroids)spawned":false,
+		"asteroids_spawned":false,
 		"enemies_spawned":false
 	},
 	{
@@ -30,7 +30,7 @@ var levels = [
 		"asteroids":[Vector2(100,100),Vector2(980,500),Vector2(800,200)],
 		"enemies":[Vector2(150,500)],
 		"timer":100,
-		"asteroids)spawned":false,
+		"asteroids_spawned":false,
 		"enemies_spawned":false
 	}
 ]
