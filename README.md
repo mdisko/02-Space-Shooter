@@ -16,7 +16,7 @@ Advanced Enemy/Final Boss Laser Sound made by Animadierer on Freesound
 Explosion Sound made by severaltimes on Freesound
 Background Music made by tyops on Freesound
 Explosion Animated Gif was found on Open Game Art: https://opengameart.org.
-Explosion GiF was made by qudodup
+Explosion GiF was made by qudodup on Open Game Art
 
 ## Future Development
 Have more time to work on things, fix enemies, add more characters, and add a story
