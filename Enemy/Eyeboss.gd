@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-onready var Enemy_Bullet = load("res://Enemy/EnemyBullet.tscn")
+onready var AdvancedBullet = load("res://Enemy/AdvancedBullet.tscn")
 var nose = Vector2(0,-60)
 var health = 30
 
@@ -25,7 +25,7 @@ func _on_Timer_timeout():
 	Effects = get_node_or_null("/root/Game/Effects")
 	if Player != null and Effects != null:
 		var dir = global_position.angle_to_point(Player.global_position) - PI/2
-		var enemybullet = Enemy_Bullet.instance()
-		enemybullet.global_position = global_position + nose.rotated(dir)
-		enemybullet.rotation = dir
-		Effects.add_child(enemybullet)
+		var advancedbullet = AdvancedBullet.instance()
+		advancedbullet.global_position = global_position + nose.rotated(dir)
+		advancedbullet.rotation = dir
+		Effects.add_child(advancedbullet)
