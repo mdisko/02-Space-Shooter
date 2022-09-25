@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Enemy/EnemyBullet.gd" type="Script" id=1]
 [ext_resource path="res://Assets/enemybullet.png" type="Texture" id=2]
+[ext_resource path="res://Assets/435418__v-ktor__shoot01.wav" type="AudioStream" id=3]
 
 [node name="EnemyBullet" type="Area2D"]
 script = ExtResource( 1 )
@@ -15,6 +16,10 @@ polygon = PoolVector2Array( 15, -24.7, 21, -17.7, 21, -12.8, 18, -1, 18, 0, 19.1
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.75
 autostart = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
 
 [connection signal="body_entered" from="." to="." method="_on_EnemyBullet_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

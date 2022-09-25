@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/435418__v-ktor__shoot01.wav-377587b1e8fe4c7cfc59c2fec4b3c55a.sample"
+
+[deps]
+
+source_file="res://Assets/435418__v-ktor__shoot01.wav"
+dest_files=[ "res://.import/435418__v-ktor__shoot01.wav-377587b1e8fe4c7cfc59c2fec4b3c55a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

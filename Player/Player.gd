@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var velocity = Vector2.ZERO
-var speed = 5.0
+var speed = 8.0
 var max_speed = 400.0
 var rot_speed = 5.0
 

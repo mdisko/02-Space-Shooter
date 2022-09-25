@@ -1,6 +1,7 @@
 extends Area2D
 
 var velocity = Vector2(0,-800)
+var speed = 500
 var damage = 10
 
 var Effects = null
@@ -13,7 +14,6 @@ func _physics_process(delta):
 
 func _on_Timer_timeout():
 	queue_free()
-
 
 func _on_EnemyBullet_body_entered(body):
 	if body.has_method("damage"):

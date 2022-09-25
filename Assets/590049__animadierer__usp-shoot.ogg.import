@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/590049__animadierer__usp-shoot.ogg-87e55044207ab0e7281f828c0986c70e.oggstr"
+
+[deps]
+
+source_file="res://Assets/590049__animadierer__usp-shoot.ogg"
+dest_files=[ "res://.import/590049__animadierer__usp-shoot.ogg-87e55044207ab0e7281f828c0986c70e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/242859__severaltimes__bit-cannon.wav-9c37714b88c6d85b56a556c7784c983c.sample"
+
+[deps]
+
+source_file="res://Assets/242859__severaltimes__bit-cannon.wav"
+dest_files=[ "res://.import/242859__severaltimes__bit-cannon.wav-9c37714b88c6d85b56a556c7784c983c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
